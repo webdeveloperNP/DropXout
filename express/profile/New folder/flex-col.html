@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Flex col</title>
+	<style >
+		.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.column {
+  flex-basis: 30%;
+  padding: 10px;
+  background-color: #f1f1f1;
+  border: 1px solid #ddd;
+}
+
+	</style>
+</head>
+<body>
+	<div class="container">
+  <div class="column">
+    <h2>Column 1</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  </div>
+  <div class="column">
+    <h2>Column 2</h2>
+    <p>Suspendisse potenti. Fusce auctor mi eget eros posuere, ac sollicitudin neque tristique.</p>
+  </div>
+  <div class="column">
+    <h2>Column 3</h2>
+    <p>Mauris rutrum tellus sit amet nisl varius, vitae consectetur nulla efficitur.</p>
+  </div>
+</div>
+</body>
+</html>

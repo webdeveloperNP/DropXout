@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Nishnat Patel-Contact</title>
+	<style >
+		.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col1 {
+  width:300px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  margin-right: 20px;
+}
+.navbar {
+  background-color: #f2f2f2;
+  width: 150px;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+.navbar a {
+  font-family: "papyrus","courier new", fantasy;
+  font-weight: 900;/*val b/w 100-900 for bold text*/
+  display: block;
+  color: #333;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align:center;
+  text-decoration: none;
+}
+.nav-dp{
+  /*padding: 20px;*/
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.navbar a:hover {
+  background-color: #ddd;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  width:100%;
+  text-align: center;
+  }
+
+  #col2{
+     flex: 1;
+    padding-top: 0px;
+    font-size:60px ;
+    font-family: "georgia",serif;
+
+  }
+
+
+  form {
+      padding: 20px;
+      font-size: 20px;
+      margin-left:50px;
+      width:200%;
+      
+    }
+
+    label {
+      display: block;
+      }
+
+    input, textarea {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      font-size: 16px;
+    }
+
+    textarea {
+      height: 100px;
+    }
+
+    button[type="submit"] {
+      background-color: #10a37f;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    button[type="submit"]:hover {
+      background-color: white;
+      color:#10a37f;
+    border: 2px solid  #10a37f
+    }
+
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="col1">
+   <nav class="navbar">
+          <a href="blog3.html" target="_blank"><img src="nav_dp.jpg" class="nav-dp" target="_blank"></a>
+          <a href="blog3.html" target="_blank"><h2>Nishant Patel</h2>
+          <h3>Know me here.</h3></a>
+          <a href="blog3.html" target="_blank">Home</a>
+          <a href="about.html" target="_blank">About</a>
+          <a href="skills.html" target="_blank">Skills</a>
+          <a href="education.html" target="_blank">Education</a>
+          <a href="img_gallery.html" target="_blank">Image Gallery</a>
+          <a href="contact.html" target="_blank">Contact</a>
+        </nav>
+  </div>
+  <div class="col2">
+    <p id="col2">Contact</p>
+    <p style="font-size: 20px;">Use this form to get in touch!</p>
+    <form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="email">Confirm Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" required></textarea>
+
+    <button type="submit">SEND MESSAGE</button>
+  </form>
+</body>
+  </div>
+
+</div>
+<footer>
+      <p>Copyright &copy; 2023</p>
+</footer>	
+</body>
+</html

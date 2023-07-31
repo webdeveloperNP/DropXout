@@ -1,0 +1,7 @@
+ChatGPT—the GPT stands for generative pretrained transformer
+Developed by OpenAI, and released for testing to the general public in November 2022,
+
+applications of ML: medical imaging analysis and high-resolution weather forecasts.
+
+how generative AI models are built, what kinds of problems they are best suited to solve, and how they fit into the broader category of machine learning
+AI ex- Siri, Alexa, Website Chatbots

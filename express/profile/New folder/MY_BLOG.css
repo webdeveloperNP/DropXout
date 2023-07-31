@@ -1,0 +1,36 @@
+.navbar {
+  background-color: #f2f2f2;
+  height: 100%; /* or set a specific height */
+  width: 300px; /* or set a specific width */
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+.nav-dp{
+  /*padding: 20px;*/
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.navbar a {
+  font-family: "papyrus","courier new", fantasy;
+  font-weight: 900;/*val b/w 100-900 for bold text*/
+  display: block;
+  color: #333;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align:center;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+}
+/*This will create a fixed position vertical navbar with a light gray 
+background color and a width of 200px. The links are displayed as blocks and are 
+spaced out with padding. When you hover over a link, 
+it will change the background color to a darker gray. You can adjust the colors 
+and styling as needed.*/

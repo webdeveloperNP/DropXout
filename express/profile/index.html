@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Nishant Patel-Know me here</title>
+	<style >
+    body{
+      background-color: rgb(222 239 228);
+    }
+		.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.column {
+  flex-basis: 30%;
+  padding: 10px;
+}
+.navbar {
+  background-color: #f2f2f2;
+  width: 250px;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+.navbar a {
+  font-family: "papyrus","courier new", fantasy;
+  font-weight: 900;/*val b/w 100-900 for bold text*/
+  display: block;
+  color: #333;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align:center;
+  text-decoration: none;
+}
+.nav-dp{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.navbar a:hover {
+  background-color: #ddd;
+}
+
+
+#col2{
+    padding-top: 100px;
+    font-size:60px ;
+    font-family: "georgia",serif;
+
+  }
+
+
+
+    .button {
+      background-color: #10a37f;
+      border: none;
+      color: white;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+    }
+    
+    .button:hover {
+      background-color: white;
+      color:#10a37f;
+    border: 2px solid  #10a37f
+  }
+  
+
+#home_col3{
+    width: 300px;
+    height: 300px;
+    padding-top: 200px;
+    border-radius: 20px;
+    }
+
+#home_col3:hover{
+    width: 320px;
+    height: 320px;
+    border-radius: 20px;
+    }
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  width:100%;
+  text-align: center;
+  }
+	</style>
+</head>
+
+
+
+<body>
+	<div class="container">
+  <div class="column">
+    <nav class="navbar">
+          <a href="#" target="_blank"><img src="nav_dp.jpg" class="nav-dp" target="_blank"></a>
+          <a href="#" target="_blank"><h2>Nishant Patel</h2>
+          <h3>Know me here.</h3></a>
+          <a href="#" target="_blank">Home</a>
+          <a href="about.html" target="_blank">About</a>
+          <a href="skills.html" target="_blank">Skills</a>
+          <a href="education.html" target="_blank">Education</a>
+          <a href="img_gallery.html" target="_blank">Image Gallery</a>
+          <a href="contact.html" target="_blank">Contact</a>
+        </nav>
+  </div>
+  <div class="column">
+    <p id="col2">I am an IT Enthusiast</p>
+    <a href="about.html" target="_blank">
+    <button class="button">VIEW PORTFOLIO</button>
+    </a>
+  </div>
+  <div class="column">
+    <img src="home_col3.jpg" id="home_col3">
+
+  </div>
+</div>
+<footer>
+      <p>Copyright &copy; 2023</p>
+</footer>
+
+
+</body>
+</html>

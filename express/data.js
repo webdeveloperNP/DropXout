@@ -1,0 +1,37 @@
+const phone=[{
+    id:1,
+    name:'abc',
+    url:'https://www.dreamhost.com/blog/wp-content/uploads/2019/06/afa314e6-1ae4-46c5-949e-c0a77f042e4f_DreamHost-howto-prod-descrips-full-730x487.jpeg'
+},
+{
+    id:2,
+    name:'def',
+    url:'https://www.dreamhost.com/blog/wp-content/uploads/2019/06/afa314e6-1ae4-46c5-949e-c0a77f042e4f_DreamHost-howto-prod-descrips-full-730x487.jpeg'
+},
+{
+    id:3,
+    name:'ghi',
+    url:'https://www.dreamhost.com/blog/wp-content/uploads/2019/06/afa314e6-1ae4-46c5-949e-c0a77f042e4f_DreamHost-howto-prod-descrips-full-730x487.jpeg'
+},
+{
+    id:4,
+    name:'jkl',
+    url:'https://www.dreamhost.com/blog/wp-content/uploads/2019/06/afa314e6-1ae4-46c5-949e-c0a77f042e4f_DreamHost-howto-prod-descrips-full-730x487.jpeg'
+},
+{
+    id:5,
+    name:'akl',
+    url:'https://www.dreamhost.com/blog/wp-content/uploads/2019/06/afa314e6-1ae4-46c5-949e-c0a77f042e4f_DreamHost-howto-prod-descrips-full-730x487.jpeg'
+},
+{
+    id:6,
+    name:'all',
+    url:'https://www.dreamhost.com/blog/wp-content/uploads/2019/06/afa314e6-1ae4-46c5-949e-c0a77f042e4f_DreamHost-howto-prod-descrips-full-730x487.jpeg'
+},
+{
+    id:7,
+    name:'akk',
+    url:'https://www.dreamhost.com/blog/wp-content/uploads/2019/06/afa314e6-1ae4-46c5-949e-c0a77f042e4f_DreamHost-howto-prod-descrips-full-730x487.jpeg'
+}
+] 
+module.exports=phone;

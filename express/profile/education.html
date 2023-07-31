@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Nishnat Patel-Education</title>
+	<style >
+		.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.column-1 {
+  width:300px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  margin-right: 20px;
+}
+
+.navbar {
+  background-color: #f2f2f2;
+  width: 250px;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+.navbar a {
+  font-family: "papyrus","courier new", fantasy;
+  font-weight: 900;/*val b/w 100-900 for bold text*/
+  display: block;
+  color: #333;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align:center;
+  text-decoration: none;
+}
+.nav-dp{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.navbar a:hover {
+  background-color: #ddd;
+}
+
+.column-2 {
+  flex: 1;
+}
+table {
+      
+      width: 80%;
+      margin-bottom: 1rem;
+      color: #212529;
+      font-size: 0.9rem;
+      text-align: left;
+      border: 1px solid #dee2e6;
+    }
+    table th,
+    table td {
+      padding: 0.75rem;
+      vertical-align: top;
+      border-top: 1px solid #dee2e6;
+    }
+    table th {
+      font-weight: 500;
+      border-bottom: 2px solid #dee2e6;
+    }
+    table tbody tr:nth-of-type(even) {
+      background-color: #f8f9fa;
+    }
+
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  width:100%;
+  text-align: center;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="column-1">
+    <nav class="navbar">
+          <a href="blog3.html" target="_blank"><img src="nav_dp.jpg" class="nav-dp" target="_blank"></a>
+          <a href="blog3.html" target="_blank"><h2>Nishant Patel</h2>
+          <h3>Know me here.</h3></a>
+          <a href="#" target="_blank">Home</a>
+          <a href="about.html" target="_blank">About</a>
+          <a href="skills.html" target="_blank">Skills</a>
+          <a href="education.html" target="_blank">Education</a>
+          <a href="img_gallery.html" target="_blank">Image Gallery</a>
+          <a href="contact.html" target="_blank">Contact</a>
+        </nav>
+  </div>
+
+  <div class="column-2">
+    <h1>Education Details</h1>
+  <table>
+    <thead>
+      <tr>
+        <th>Serial Number</th>
+        <th>Degree Name</th>
+        <th>University Attended</th>
+        <th>Duration</th>
+        <th>CGPA</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Matriculate</td>
+        <td>CBSE</td>
+        <td>2016</td>
+        <td>9.5</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Intermediate</td>
+        <td>CBSE</td>
+        <td>2018</td>
+        <td>7.45</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Bachelor of Science in Computer Science</td>
+        <td>AKTU University</td>
+        <td>2019-2022</td>
+        <td>7.82</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>Master in Computer Application</td>
+        <td>LPU University</td>
+        <td>2022-2024</td>
+        <td>awaited</td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+</div>
+  
+<footer>
+      <p>Copyright &copy; 2023</p>
+</footer>
+</body>
+</html>
