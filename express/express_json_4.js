@@ -27,7 +27,7 @@ server.get('/',(req,res)=>{
 // const phone=require('./data');
 // server.get('/api/phone',(req,res)=>{
 //     res.json(phone);
-// })//sending all data to cliend on click on phone link
+// })//sending all data to client on click on phone link
 
 const phone=require('./data');
 server.get('/api/phone',(req,res)=>{

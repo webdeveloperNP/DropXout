@@ -10,7 +10,7 @@ const getBooks = (req, res) => {
 //POST Request
 
 server.use(express.json());
-//middelevare to pass jason body because to send jason you need a kind of middlevare which is body parser
+//middelevare to pass json body because to send jason you need a kind of middlevare which is body parser
 const createBook = (req, res) => {
     console.log(req.body);
     const newBook = req.body;
